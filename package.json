@@ -1,0 +1,28 @@
+{
+  "name": "iot-derby",
+  "version": "1.0.0",
+  "description": "Raspberry project client for the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "here"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huda88/iot-derby.git"
+  },
+  "keywords": [
+    "derby",
+    "iot",
+    "raspberry",
+    "cloud"
+  ],
+  "author": "Julia Gast",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huda88/iot-derby/issues"
+  },
+  "homepage": "https://github.com/huda88/iot-derby#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
