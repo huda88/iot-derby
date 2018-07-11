@@ -1,28 +1,41 @@
 {
-  "name": "iot-derby",
-  "version": "1.0.0",
-  "description": "Raspberry project client for the cloud",
-  "main": "index.js",
-  "scripts": {
-    "test": "here"
+  "name": "iot",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.18.3",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.2",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "method-override": "~2.3.6",
+    "morgan": "^1.9.0",
+    "nconf": "^0.10.0",
+    "passport": "~0.3.2",
+    "passport-facebook": "~2.1.1",
+    "passport-google-oauth": "~1.0.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-local": "~1.0.0",
+    "passport-twitter": "~1.0.4"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "iot project for class",
+  "version": "1.0.0",
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huda88/iot-derby.git"
   },
   "keywords": [
-    "derby",
-    "iot",
-    "raspberry",
-    "cloud"
+    "iot"
   ],
   "author": "Julia Gast",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/huda88/iot-derby/issues"
   },
-  "homepage": "https://github.com/huda88/iot-derby#readme",
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "homepage": "https://github.com/huda88/iot-derby#readme"
 }
